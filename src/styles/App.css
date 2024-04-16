@@ -1,0 +1,89 @@
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  transition: background-color 1s;
+}
+#quote-box {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 35rem;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a {
+  display: block;
+  height: fit-content;
+  padding: 0.3rem;
+  transition: background-color 1s;
+}
+h2 {
+  font-size: 1.9rem;
+  transition: color 1.5s;
+}
+h3 {
+  transition: color 1.5s;
+}
+h3::before {
+  content: "-";
+  font-size: 1.6rem;
+  margin-inline-end: 0.3rem;
+}
+#text {
+  min-height: 5rem;
+  text-align: center;
+}
+i {
+  font-size: 2rem;
+  margin-inline-end: 0.5rem;
+}
+.fa-twitter {
+  color: white;
+  margin: auto;
+}
+.fa-facebook-f {
+  color: white;
+  margin: auto;
+}
+
+#author {
+  width: fit-content;
+  margin-left: auto;
+  padding: 0.5rem;
+  margin-block-start: 1rem;
+}
+
+#foot {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-block-start: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+#links {
+  display: flex;
+  gap: 0.5rem;
+}
+button {
+  display: block;
+  padding: 0.8rem;
+  font-weight: bold;
+  border: none;
+  color: white;
+  transition: background-color 1s;
+  position: relative;
+}
+
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.jersey-15-regular {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
